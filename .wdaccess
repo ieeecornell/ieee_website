@@ -1,0 +1,10 @@
+AuthName Cornell
+AuthType All
+# AuthAuthoritative off
+#
+# Use the following to restrict access
+#  (w/o comments) use spaces not commas
+#  when multiple entries are needed
+#
+#require valid-user
+require permit CIT-Static.ieee-ece
