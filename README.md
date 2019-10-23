@@ -1,4 +1,4 @@
-cd Do# IEEE Website (Under Construction)
+# IEEE Website (Under Construction)
 
 ## Installation Instructions
 1. Install NodeJS: [https://nodejs.org/en/](https://nodejs.org/en/)
@@ -45,19 +45,15 @@ If you get the message that the remote repository has changes you do not have lo
 
 
 ## Modifying Static-Hosted Website
-<<<<<<< HEAD
-You may only modify ieee.ece.cornell.edu if you are one of the listed people. If you would like access please message Felicia:
-* Priyanka Dilip
-* Kenneth Fang
-=======
 You may only modify ieee.ece.cornell.edu if you are one of the listed people. If you would like access please message Felicia (any one of the people listed should also have full administrative access/management):
 * Priyanka Dilip
 * Kenneth Fang
 * Felicia Guo
->>>>>>> 6396800c201b41e207fc1ec54caa13b74b9507d2
 * Rohan Patel 
 * Joy Thean
 * Kevin Ying
+* Rose Zhou
+* Aratrika Ghatak
 
 To modify files:
 
