@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.css" />
 
     <!-- Custom IEEE CSS- MUST COME AFTER Boostrap CSS -->
-    <link rel="stylesheet" href="/public/styles/ieee.css">
+    <link rel="stylesheet" href="styles/ieee.css">
 
 
     <title>IEEE Cornell</title>
@@ -73,7 +73,7 @@
 
     <script src="js-yaml.min.js"></script>
     <script type="text/javascript">
-        fetch( 'http://ieee.ece.cornell.edu/public/eboard.yml')
+        fetch( 'eboard.yml')
 	.then(response => response.text())
 	.then((doc) => {
 	    console.log(data);
@@ -97,7 +97,7 @@
         $(`#${div_id}`).load('profile_card.html', function () {
           
 
-          $(`#${div_id}`).find('img').attr('src', `/public/images/profiles/${member.netid + '.jpg'}`)
+          $(`#${div_id}`).find('img').attr('src', `images/profiles/${member.netid + '.jpg'}`)
           $(`#${div_id}`).find('img').attr('alt', `${member.netid + '.jpg'}`)
 
 
