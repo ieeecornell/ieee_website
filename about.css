@@ -1,0 +1,93 @@
+*{
+    text-align: center;
+}
+.light-blue{
+    color: #2BA4FF;
+}
+.dark-blue{
+    color: #1B1D91;
+}
+.center{
+    text-align: center;
+    
+}
+#main-image{
+    text-align:center;
+    width: 85vw;
+}
+.container{
+    text-align: center;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+p{
+    /* text-align: left; */
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+.black-border-top{
+    border-top:solid;
+    border-top-color: #EBEBEB;
+    border-top-width: 1pt;
+    width: 70%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.events{
+    border: none;
+    width: 85vw;
+    border-collapse: collapse;
+    padding: 0pt;
+}
+.event-pic{
+    margin:0pt;
+    background-image: url("newIEEEpic.jpg");
+    background-size: cover;
+    margin: 0pt;
+    height: 300px;
+    border: none;
+    width: 100%;
+    height:auto;
+}
+h3{
+    text-align: center;
+    /* vertical-align: bottom; */
+}
+td{
+    margin: 0pt;
+    height: 300px;
+    border: none;
+    width: 33.3333333%;
+}
+tr{
+    margin: 0pt;
+    border: none;
+    padding:0pt;
+}
+table{
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .column {
+    flex: 33.33%;
+    padding: 0;
+  }
+  
+  .column img {
+    vertical-align: middle;
+  }
+  div{
+      margin:0;
+  }
