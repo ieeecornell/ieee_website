@@ -74,20 +74,34 @@ table{
 
 }
 .row {
+    width: 85vw;
     display: flex;
     flex-wrap: wrap;
     padding: 0;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 10vh;
   }
   
-  /* Create two equal columns that sits next to each other */
-  .column {
+.column {
     flex: 33.33%;
     padding: 0;
-  }
-  
-  .column img {
+}
+.column-container{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.column img {
     vertical-align: middle;
+}
+.text{
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 15pt;
   }
-  div{
+/* div{
       margin:0;
-  }
+  } */
