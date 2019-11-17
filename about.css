@@ -1,5 +1,6 @@
 *{
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
 .light-blue{
     color: #2BA4FF;
@@ -95,13 +96,45 @@ table{
 .column img {
     vertical-align: middle;
 }
+.description-body{
+    margin: 5%;
+    text-align: left;
+}
 .text{
     position: absolute;
     bottom: 5%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 15pt;
-  }
+}
+.column-container .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+.popup{
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
+    background-color: #b3c0c9;
+    color: #000;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 5%;
+    left: 50%;
+    margin-left: -80px;
+}
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
 /* div{
       margin:0;
   } */
