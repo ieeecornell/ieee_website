@@ -29,8 +29,22 @@
         <div class="row">
             <!-- main content area -->
             <div class="col-sm-12">
-                <div id="companies", style="text-align: center">
-                    <h1 style="text-align: center">Thank you to our sponsors!</h1>
+                <div id="companies", style="text-align: center; padding-left: 50 px">
+                    <h2 style="color:#0C1C8C">THANK YOU TO OUR SPONSORS</h2>
+                    <h5 style="text-align: center; padding-left: 100px; padding-right: 100px">Cornell IEEE greatly appreciates the generous support of its sponsors. These donations help us build a strong community of electrical and electronic engineers,
+                    and we would love your support.</h5>
+                    <div><mdiv>
+                    <div id="companies", style="text-align: center; padding-top: 100px">
+                        <h2 style="color:#78C1FF">SUPPORT US</h2>
+                        <h5 style="text-align: center; padding-bottom: 20px;">Download our sponsorship packet below to find out more!</h5>
+                        <a href="www.google.com" style = "background-color: #78C1FF; color:white; padding:10px">Sponsorship Packet</a>
+                    </div>
+                </div>
+                <div>
+
+                </div>
+                <div>
+                  
                 </div>
             </div>
         </div>
@@ -68,12 +82,12 @@
 <script src="js-yaml.min.js"></script>
     <script type="text/javascript">
         fetch( 'sponsor.yml')
-	.then(response => response.text())
-	.then((doc) => {
-	    console.log(data);
-	    //way to display images with names
+    .then(response => response.text())
+    .then((doc) => {
+        console.log(data);
+        //way to display images with names
             var data = jsyaml.load( doc );
-	    console.log(data);
+        console.log(data);
 
    $.each(data, function (index, data) {
       var level = data.level
@@ -100,7 +114,7 @@
         })
       })
     })
-	});
+    });
    </script>
 </body>
 
